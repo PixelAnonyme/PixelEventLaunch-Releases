@@ -1,0 +1,24 @@
+{
+  "season": "1",
+  "seasonLabel": "Saison 1",
+  "profileId": "pixelevent-saison-1",
+  "profileName": "PixelEvent Saison 1",
+  "javaArgs": "-Xmx8G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M",
+  "github": {
+    "configUrl": "https://raw.githubusercontent.com/PixelAnonyme/PixelEventLaunch-Releases/main/config.json"
+  },
+  "packs": {
+    "versions": {
+      "fileName": "versionsPixelEvent.rar",
+      "downloadUrl": "https://www.dropbox.com/scl/fi/o7tv1koklg9ne22kqw2rd/versionsPixelEvent.rar?rlkey=8i4abm4e0yldni9xbfjp9nc27&st=v0j0uven&dl=1",
+      "target": "versions",
+      "mode": "merge"
+    },
+    "content": {
+      "fileName": "ressourcesPixelEvent.rar",
+      "downloadUrl": "https://www.dropbox.com/scl/fi/1nbmx38si5mlyom1dpp9k/ressourcesPixelEvent.rar?rlkey=9hql0k970292p59i6fnaipchm&st=2jrivedl&dl=1",
+      "target": ".",
+      "mode": "merge"
+    }
+  }
+}
